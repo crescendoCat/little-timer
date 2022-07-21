@@ -1,4 +1,4 @@
-# Simple Timer App
+# Little Timer App
 A very simple timer app that can help you know the time left.
 
 ## Appreciation
