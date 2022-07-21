@@ -1,0 +1,58 @@
+.seven-segment {
+  fill: red;
+  #a, #b, #c, #d, #e, #f, #g {
+    fill: inherit;
+  }
+  &.seven-seg-1 {
+    #a, #d, #e, #f, #g {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-2 {
+    #c, #f {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-3 {
+    #e, #f {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-4 {
+    #a, #d, #e {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-5 {
+    #b, #e {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-6 {
+    #b {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-7 {
+    #d, #e, #f, #g {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-8 {
+  }
+  &.seven-seg-9 {
+    #e {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-0 {
+    #g {
+      visibility: hidden;
+    }
+  }
+  &.seven-seg-minus {
+    #a, #b, #c, #d, #e, #f {
+      visibility: hidden;
+    }
+  }
+}

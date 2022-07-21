@@ -1,6 +1,44 @@
-# Getting Started with Create React App
+# Simple Timer App
+A very simple timer app that can help you know the time left.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Appreciation
+
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* My icon is generated and converted with:
+	- https://romannurik.github.io/AndroidAssetStudio/index.html
+	- https://favicon.io/favicon-converter/
+* Alarm Sound Effect:
+	- https://pixabay.com/sound-effects/
+* Beautiful and Simple `useAudio` solution thanks to [Thomas Hennes](https://stackoverflow.com/users/5438616/thomas-hennes)'s [answer](https://stackoverflow.com/questions/47686345/playing-sound-in-react-js#answer-47686478) on [StackOverflow](https://stackoverflow.com/)
+* Great [7-segment svg](https://commons.wikimedia.org/wiki/File:7-segment_abcdefg.svg) from wikimedia commons
+* Color choosing with [Coolers](https://coolors.co/)
+* And all dependencies including
+	- moment.js
+	- moment-duration-format
+	- bootstrap
+	- react-bootstrap
+
+## Features
+
+### Freely pause and resume
+You can pause the timer in any time and also resume in any time. The timer will count correctly.
+### Colorful digits.
+The timer's number will turn orange when the remaining time is less than 1 mins. And turn red when it is less then 10 secs.
+### Adding/Subtracting timer when counting
+You can freely increase and decrease the value of the timer even when the timer is counting.
+### 7-segment displaying using PURE css.
+With css `visible: hidden`, I display the total 10 digits and the minus sign `-` as 7-segment style by pure css styles and classes.
+
+## Screen Shots
+
+![Timer setting](imgs/ui.jpg)
+![Numbers turn to orange](imgs/orange-digits.jpg)
+![Numbers turn to red](imgs/red-digits.jpg)
+![Screen shot when counting down](imgs/countdown.jpg)
+
+
+
+
 
 ## Available Scripts
 
@@ -28,43 +66,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

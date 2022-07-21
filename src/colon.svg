@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="96px" height="320px" viewBox="-1 -1 6 20">
+<g id="colon" style="fill-rule:evenodd; stroke:#FFFFFF; stroke-width:0.25; stroke-opacity:1; stroke-linecap:butt; stroke-linejoin:miter;">
+  <circle id="p1" cx="2" cy="7"  r="1" stroke-width="0" fill="#FF0000" />
+  <circle id="p2" cx="2" cy="13" r="1" stroke-width="0" fill="#FF0000" />
+</g>
+</svg>
